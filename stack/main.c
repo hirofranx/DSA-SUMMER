@@ -24,7 +24,7 @@ int main(int argc, char *argv[]) {
 	Even = removeEvenNumbers(&s);
 	display(Even);
 	printf("\n\nUpdated List\n");
-	display(s);
+	visualize(s);
 	
 	
 	return 0;
