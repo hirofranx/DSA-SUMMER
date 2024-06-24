@@ -16,7 +16,7 @@ void addprocess(proclist *pl, int x, int y, int letter){
 	newNode->proc.ET = 0;
 	newNode->proc.TT = 0;
 	newNode->proc.WT = 0;
-	
+	newNode->next = NULL;
 	//insertList
 	NodePtr trav = pl->list;
 	
