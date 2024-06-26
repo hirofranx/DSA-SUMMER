@@ -195,7 +195,6 @@ void delete(MyDictionary *md, AccessList *al, char data[]){
 			} else {
 				trav = &(*trav)->next;
 			}
-			
 		}
 
 		AccessList tmp;
@@ -234,7 +233,7 @@ void updateData(MyDictionary *md,AccessList *al, char data[], char uData[]){
 			trav = &(*md).dict[key];
 			while(*trav != NULL){
 				if(strcmp((*trav)->data.blocks, data) == 0){
-					 temp = *trav;
+					temp = *trav;
 					*trav = (*trav)->next;
 					free(temp);
 				} else {
