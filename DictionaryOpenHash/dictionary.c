@@ -141,7 +141,6 @@ void resize(MyDictionary *md, AccessList *al){
 		i++;
 	}
 	
-		
 	mc_blocks tempdata;
 	NodePtr newNode; 
 	NodePtr *travd;
