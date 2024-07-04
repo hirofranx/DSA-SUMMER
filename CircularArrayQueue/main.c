@@ -18,13 +18,11 @@ int main(int argc, char *argv[]) {
 	enqueue(&cq, 9);
 	enqueue(&cq, 10);
 	enqueue(&cq, 11);	
+	enqueue(&cq, 12);	
 	
 	dequeue(&cq);
 	enqueue(&cq, 203);	
 	display(cq);
-
-	
-	
 	
 	return 0;
 }
