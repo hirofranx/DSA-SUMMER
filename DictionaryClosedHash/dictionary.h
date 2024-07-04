@@ -30,7 +30,7 @@ typedef struct{
 void initDictionary(MyDictionary *md);
 void initAccessList(AccessList *al);
 void insertInto(MyDictionary *md, AccessList *al, mc_blocks data);
-int hash(char blocks[],int i, int max);
+int hash(char blocks[], int max);
 bool enqueue(AccessList *al, mc_blocks data);
 bool dequeue(AccessList *al);
 bool isEmpty(AccessList al);
